@@ -133,6 +133,8 @@ function PhotoList({ category }) {
           key={image.name}
         />
       ))}
+
+      <img sr={photo}></img>
     </div>
 
   );
